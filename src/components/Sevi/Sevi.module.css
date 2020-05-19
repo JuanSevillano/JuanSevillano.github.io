@@ -4,7 +4,12 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 10px;
-    --border: 1px solid salmon;
+    overflow: hidden;
+}
+
+.I {
+    color: black;
+    background-color: white;
 }
 
 
