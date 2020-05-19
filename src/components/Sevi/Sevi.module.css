@@ -4,15 +4,11 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 10px;
-    padding: 5px;
-}
-
-#SEV, #I {
-    padding-left: 5px;
+    --border: 1px solid salmon;
 }
 
 
-#SEV {
+.SEV {
     background-color: black;
     color: white;
 }
