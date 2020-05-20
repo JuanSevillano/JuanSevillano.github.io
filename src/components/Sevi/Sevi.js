@@ -8,6 +8,7 @@ const Sevi = (props) => {
 	const [message, setMessage] = useState([])
 	const messageRef = useRef([])
 	const transitions = useTransition(message, null, {
+		delay: 500,
 		from: { opacity: 1, width: 0 },
 		enter: { opacity: 1, width: 45 },
 		leave: { opacity: 0, width: 45 },
@@ -36,9 +37,12 @@ const Sevi = (props) => {
 		messageRef.current.push(setTimeout(() => setMessage(['s', 'e', 'v', 'i']), 2900))
 	}, [])
 
-	useEffect(() => void reset(), [])
+	useEffect(() => {
+		void reset()
+		return () => clearTimeout()
+	}, [])
 
-	return <a.div style={sprFade} className={classes.Sevi}>{transitions}</a.div>
+	return <a.div style={props.fixed ? null : sprFade} className={classes.Sevi}>{transitions}</a.div>
 
 }
 
