@@ -6,10 +6,16 @@ import classes from './Home.module.css'
 
 const Home = (props) => {
 
+	
+
+	const languageHandler = lang => {
+		
+	}
+
 	return (
 		<div className={classes.Home}>
 			<Sevi />
-			<SelectLanguage />
+			<SelectLanguage selected={languageHandler} />
 		</div>
 	)
 }

@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect, useCallback } from 'react'
 
-import { a as a, useTransition, config, useSpring, interpolate } from 'react-spring'
+import { animated as a, useTransition, config, useSpring } from 'react-spring'
 import classes from './Sevi.module.css'
 
 const Sevi = (props) => {
