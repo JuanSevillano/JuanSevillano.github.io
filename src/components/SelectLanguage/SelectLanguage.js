@@ -3,11 +3,9 @@ import { useSpring, config, animated as a } from 'react-spring';
 
 import classes from './SelectLanguage.module.css'
 
-import CO from '../../assets/CO.png'
-import FR from '../../assets/FR.png'
-import UK from '../../assets/UK.png'
-
-
+import CO from '../../assets/flags/CO.png'
+import FR from '../../assets/flags/FR.png'
+import UK from '../../assets/flags/UK.png'
 
 const SelectLanguage = (props) => {
 
