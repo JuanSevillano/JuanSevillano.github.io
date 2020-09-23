@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.201fa88e.chunk.css",
+    "main.css": "/static/css/main.e239fe78.chunk.css",
     "main.js": "/static/js/main.d7a3aa53.chunk.js",
     "main.js.map": "/static/js/main.d7a3aa53.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.022d34a2.js",
@@ -8,9 +8,9 @@
     "static/js/2.66d6e6e3.chunk.js": "/static/js/2.66d6e6e3.chunk.js",
     "static/js/2.66d6e6e3.chunk.js.map": "/static/js/2.66d6e6e3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a06373a7bd6e6edd04f71882bd86b362.js": "/precache-manifest.a06373a7bd6e6edd04f71882bd86b362.js",
+    "precache-manifest.1fab378cfb9ca1604ffc81b5a69a40eb.js": "/precache-manifest.1fab378cfb9ca1604ffc81b5a69a40eb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.201fa88e.chunk.css.map": "/static/css/main.201fa88e.chunk.css.map",
+    "static/css/main.e239fe78.chunk.css.map": "/static/css/main.e239fe78.chunk.css.map",
     "static/js/2.66d6e6e3.chunk.js.LICENSE.txt": "/static/js/2.66d6e6e3.chunk.js.LICENSE.txt",
     "static/media/persona.svg": "/static/media/persona.cc314755.svg",
     "static/media/taladro.svg": "/static/media/taladro.44011289.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.022d34a2.js",
     "static/js/2.66d6e6e3.chunk.js",
-    "static/css/main.201fa88e.chunk.css",
+    "static/css/main.e239fe78.chunk.css",
     "static/js/main.d7a3aa53.chunk.js"
   ]
 }

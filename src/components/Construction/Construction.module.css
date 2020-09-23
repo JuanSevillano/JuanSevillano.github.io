@@ -114,7 +114,6 @@
 }
 
 @media (max-width: 768px) {
-
   .Logo {
     transform: scale(1);
   }
@@ -151,6 +150,12 @@
     width: 100%;
     transform: translate(0, 0%);
     bottom: 20px;
+  }
+}
+
+@media (min-width: 1280) {
+  .Constructor {
+    transform: translate(355px, 0);
   }
 }
 
